@@ -21,8 +21,6 @@ export class ProductCreateComponent implements OnInit {
     this.productService.saveProduct(product);
     this.productForm.reset();
   }
-
-
   ngOnInit() {
   }
 
